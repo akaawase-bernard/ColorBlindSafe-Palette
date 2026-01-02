@@ -4,6 +4,16 @@
 
 While existing tools extract palettes (eg Pylette), they do not consider color blindness issues. Colors that appear distinct to one viewer may be indistinguishable to others, especially in scientific figures where colors are crucial in understanding figures.
 
+---
+
+## Example Output
+
+<p align="center">
+  <img src="data/flower_palette.png" width="900">
+</p>
+
+---
+
 This project goes beyond palette extraction by simulating color-blind vision and evaluating perceptual color separation. Each color is classified as safe or unsafe based on whether it remains distinguishable under common color-vision deficiencies.
 
 Here , such gap is filled. Researchers can now worry less about deciding on which colors to use, but also effectively reproduce any figure easily. 
@@ -25,15 +35,6 @@ Here , such gap is filled. Researchers can now worry less about deciding on whic
   - Human-readable `.txt` summary
 - Designed for **scientific plots, papers, and presentations**
 
----
-
-## Example Output
-
-<p align="center">
-  <img src="data/flower_palette.png" width="900">
-</p>
-
----
 
 ##  Video Walkthrough
 
