@@ -52,4 +52,4 @@ extract_colorblind_safe_palette(
     n_colors=8
 )
 ```
-
+---
